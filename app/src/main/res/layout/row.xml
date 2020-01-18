@@ -18,7 +18,7 @@
 
         <TableRow>
         <TextView
-            android:text="Team 1 "
+            android:text="Gospodarze: "
             android:textColor="#000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
 
         <TableRow>
             <TextView
-                android:text="Team 2 "
+                android:text="Goście: "
                 android:textColor="#000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,6 +41,33 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"/>
         </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Data: "
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+            <TextView
+                android:id="@+id/datetv"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Status: "
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+            <TextView
+                android:id="@+id/matchstatus"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+
+
 
 
     </TableLayout>
